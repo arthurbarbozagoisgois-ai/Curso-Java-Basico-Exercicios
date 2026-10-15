@@ -1,0 +1,54 @@
+//Exercícios Aula 15
+//Questão 11
+     System.out.println("Sistema de salário");
+		 System.out.println(" ");
+		 System.out.println("Digite o salário do colaborador: ");
+		 int salario = entrada.nextInt();
+
+		 if (salario<=280){
+			 double aumento_salario = (salario * 20)/100;
+			 String percentual = "20%";
+			 double salario_final = salario+aumento_salario;
+			 System.out.println("Salário antes do reajuste: "+salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Aumento aplicado: "+percentual);
+			 System.out.println(" ");
+			 System.out.println("Valor do aumento: "+aumento_salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Salário final: "+salario_final+"R$");
+		 }else if(salario<=700){
+			 double aumento_salario = (salario * 15)/100;
+			 String percentual = "15%";
+			 double salario_final = salario+aumento_salario;
+			 System.out.println("Salário antes do reajuste: "+salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Aumento aplicado: "+percentual);
+			 System.out.println(" ");
+			 System.out.println("Valor do aumento: "+aumento_salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Salário final: "+salario_final+"R$");
+		 }else if(salario<=1500){
+			 double aumento_salario = (salario * 10)/100;
+			 String percentual = "10%";
+			 double salario_final = salario+aumento_salario;System.out.println("Salário antes do reajuste: "+salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Aumento aplicado: "+percentual);
+			 System.out.println(" ");
+			 System.out.println("Valor do aumento: "+aumento_salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Salário final: "+salario_final+"R$");
+		 }else if(salario>1500){
+			 double aumento_salario = (salario * 5)/100;
+			 String percentual = "5%";
+			 double salario_final = salario+aumento_salario;
+			 System.out.println("Salário antes do reajuste: "+salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Aumento aplicado: "+percentual);
+			 System.out.println(" ");
+			 System.out.println("Valor do aumento: "+aumento_salario+"R$");
+			 System.out.println(" ");
+			 System.out.println("Salário final: "+salario_final+"R$");
+		 } 
+	}
+}
+
